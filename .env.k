@@ -1,7 +1,7 @@
 # Don't use quotes( " and ' )
 
 API_ID=6620972
-DB_URI=postgres://wboppfbp:iZ0AdGsCCW4T1AEfSWMMZrw5mh0028D8@john.db.elephantsql.com/wboppfbp
+DATABASE_URI=postgres://wboppfbp:iZ0AdGsCCW4T1AEfSWMMZrw5mh0028D8@john.db.elephantsql.com/wboppfbp
 API_HASH=3f6835286b03e000ab6d71b37cc35b92
 SESSION=1BVtsOK8BuxsYtCKX2pFkhmNNaF6iGxsBr8IQ1pLLyp9KHh8pwnGPiGoSQ8MVBwfY8bweKQQmmNkHL28ly_1oO1TbLfdZFJiGqfHYYzgODO5rnAXho8nBT4ONM4d-R6WbjX3_a-hyaZeGjvE5P5hC8L03RcdQsxokQRvSvsESJiuKsKcHH9IPkyzx163TF0mJ9CY2VOug9GuKUopq-FGhlgR-ei2SZkKO2E_q6LNcUrzJgND_8TvxKpj177TJkTfXs6w6j-aO_98H16ZTeNs1wLlG5zSkGB_4VUVFG0rsZ5xPVyuILGRWFZ4pzq-t9yeKzexKG-6lq_TnrYejpvewV5724Bu4U_o=
 REDIS_URI=redis-14822.c62.us-east-1-4.ec2.cloud.redislabs.com:14822
