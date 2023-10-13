@@ -9,7 +9,7 @@ import os
 import subprocess
 import sys
 from shutil import rmtree
-
+from git import Repo
 from decouple import config
 
 from .. import *
@@ -72,7 +72,7 @@ def load_other_plugins(addons=None, pmbot=None, manager=None, vcbot=None):
             rmtree("addons")
         if not os.path.exists("addons"):
             subprocess.run(
-                f"git clone -q -b {().active_branch} https://github.com/TeamUltroid/UltroidAddons.git addons",
+                f"git clone -q -b {Repo().active_branch} https://github.com/TeamUltroid/UltroidAddons.git addons",
                 shell=True,
             )
         else:
